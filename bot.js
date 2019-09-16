@@ -18,11 +18,11 @@ var bot = new Discord.Client({
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-client.on('ready', () => {
+bot.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
+bot.on('message', message => {
     if (message.content === 'ping') {
        message.reply('pong');
        }
