@@ -1,3 +1,4 @@
+/*
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
@@ -12,9 +13,10 @@ var bot = new Discord.Client({
    token: auth.token,
    autorun: true
 });
+*/
 
-/*const Discord = require('discord.js');
-const client = new Discord.Client();
+const Discord = require('discord.js');
+const bot = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -25,15 +27,16 @@ client.on('message', message => {
        message.reply('pong');
        }
 });
-*/
+
 // THIS  MUST  BE  THIS  WAY
 //client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
 
-bot.on('ready', function (evt) {
+/*bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
+*/
 bot.on('message', function (user, userID, channelID, message, evt) {
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!serienbewertung`
