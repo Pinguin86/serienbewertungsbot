@@ -1,4 +1,4 @@
-/*var Discord = require('discord.io');
+var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
 // Configure logger settings
@@ -12,8 +12,8 @@ var bot = new Discord.Client({
    token: auth.token,
    autorun: true
 });
-*/
-const Discord = require('discord.js');
+
+/*const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -25,8 +25,9 @@ client.on('message', message => {
        message.reply('pong');
        }
 });
+*/
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+//client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
 
 bot.on('ready', function (evt) {
     logger.info('Connected');
