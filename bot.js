@@ -1,20 +1,3 @@
-/*
-var Discord = require('discord.io');
-var logger = require('winston');
-var auth = require('./auth.json');
-// Configure logger settings
-logger.remove(logger.transports.Console);
-logger.add(new logger.transports.Console, {
-    colorize: true
-});
-logger.level = 'debug';
-// Initialize Discord Bot
-var bot = new Discord.Client({
-   token: auth.token,
-   autorun: true
-});
-*/
-
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
@@ -28,15 +11,7 @@ bot.on('message', message => {
        }
 });
 
-// THIS  MUST  BE  THIS  WAY
-//client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
-
-/*bot.on('ready', function (evt) {
-    logger.info('Connected');
-    logger.info('Logged in as: ');
-    logger.info(bot.username + ' - (' + bot.id + ')');
-});
-*/
+/*
 bot.on('message', function (user, userID, channelID, message, evt) {
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!serienbewertung`
@@ -66,11 +41,12 @@ Christopher Fitzgerald als Sonny Shine in Spandex mit übertrieben viel Makeup m
 Daher Empfehlung:
 Unbedingt sehen!
 ```' */
-                });
+/*                });
             break;
          }
      }
-});
+}); */
+
 
 //DAS MUSS MIT REIN
 bot.login(process.env.BOT_TOKEN);
