@@ -73,4 +73,4 @@ Unbedingt sehen!
 });
 
 //DAS MUSS MIT REIN
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
