@@ -5,7 +5,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 // require config.json
-const config = require('./config.json');
+const {prefix} = require('./config.json');
 
 bot.on('ready', () => {
     console.log('I am ready!');
