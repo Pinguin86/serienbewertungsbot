@@ -5,10 +5,23 @@ bot.on('ready', () => {
     console.log('I am ready!');
 });
 
-bot.on('message', message => {
-    if (message.content === 'ping') {
-       message.reply('pong');
-       }
+bot.on(‘message’, function(msg){
+var prefix = "!pinguin"; // Setzt den Prefix
+
+if(!msg.content.startsWith(prefix)) return; // Checkt ob die Nachricht mit dem Prefix anfängt
+
+const args = msg.content.slice(1).trim().split(/ +/g); // Damit wir später Argumente benutzen können
+const command = args.shift().toLowerCase(); // Damit wir wissen, welcher Command es ist
+
+if(command === "hallo"){ // Wenn jemand den Befehl “hallo” ausführt..
+msg.channel.send("Hallo Welt!") // ..sage Hallo Welt!
+}
+if(command === "befehl2"){ // und so weiter..
+msg.channel.send("Ich bin Befehl 2!")
+}
+if(command === "befehl3"){
+msg.channel.send("Ich bin Befehl 3!")
+}
 });
 
 /*
