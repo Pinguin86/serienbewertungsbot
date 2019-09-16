@@ -23,6 +23,7 @@ bot.on('message', message => {
     } else
 	    if(message.content.startsWith(config.prefix + "serienbewertung")) {
 		    message.channel.send("test"); 
+	    }
 });
 
 /*
