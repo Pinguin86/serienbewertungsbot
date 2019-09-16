@@ -15,7 +15,9 @@ bot.on('ready', () => {
 bot.login(process.env.BOT_TOKEN);
 
 bot.on('message', message => {
-    if (message.content === '${prefix}ping') {
+	//Exit if message is empty or other bot uses prefix
+    	if (!message.content.startsWith(prefix) || message.author.bot) return;
+    	if (message.content.startsWith(prefix + 'ping')) {
        //message.reply('pong');
        message.channel.send('pong');
     }
