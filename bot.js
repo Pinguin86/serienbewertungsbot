@@ -18,9 +18,11 @@ bot.on('message', message => {
 	//Exit if message is empty or other bot uses prefix
     	if (!message.content.startsWith(config.prefix) || message.author.bot) return;
     	if (message.content.startsWith(config.prefix + "ping")) {
-       //message.reply('pong');
-       message.channel.send("pong");
-    }
+        //message.reply('pong');
+        message.channel.send("pong");
+    } else
+	    if(message.content.startsWith(config.prefix + "serienbewertung")) {
+		    message.channel.send("```verarbeite: !Pinguin Serienbewertung "HAPPY" ``` "); 
 });
 
 /*
