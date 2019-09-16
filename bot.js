@@ -15,7 +15,7 @@ bot.on('ready', () => {
 bot.login(process.env.BOT_TOKEN);
 
 bot.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content === '${prefix}ping') {
        //message.reply('pong');
        message.channel.send('pong');
     }
