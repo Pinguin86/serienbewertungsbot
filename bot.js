@@ -22,7 +22,7 @@ bot.on('message', message => {
         message.channel.send("pong");
     } else
 	    if(message.content.startsWith(config.prefix + "serienbewertung")) {
-		    message.channel.send("```verarbeite: !Pinguin Serienbewertung "HAPPY" ``` "); 
+		    message.channel.send("verarbeite: !Pinguin Serienbewertung HAPPY "); 
 });
 
 /*
