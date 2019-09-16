@@ -4,6 +4,9 @@ const Discord = require('discord.js');
 // create a new Discord client
 const bot = new Discord.Client();
 
+// require config.json
+const config = require('./config.json');
+
 bot.on('ready', () => {
     console.log('I am ready!');
 });
