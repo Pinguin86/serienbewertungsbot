@@ -5,7 +5,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 // require config.json
-const prefix  = require('./config.json');
+const config  = require('./config.json');
 
 bot.on('ready', () => {
     console.log('I am ready!');
@@ -16,10 +16,10 @@ bot.login(process.env.BOT_TOKEN);
 
 bot.on('message', message => {
 	//Exit if message is empty or other bot uses prefix
-    	if (!message.content.startsWith(prefix) || message.author.bot) return;
-    	if (message.content.startsWith(prefix + 'ping')) {
+    	if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+    	if (message.content.startsWith(config.prefix + "ping")) {
        //message.reply('pong');
-       message.channel.send('pong');
+       message.channel.send("pong");
     }
 });
 
