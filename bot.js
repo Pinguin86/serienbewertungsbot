@@ -1,14 +1,21 @@
+// require the discord.js module
 const Discord = require('discord.js');
+
+// create a new Discord client
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
     console.log('I am ready!');
 });
+//DAS MUSS MIT REIN
+//login to discord with Heroku
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('message', message => {
     if (message.content === 'ping') {
-       message.reply('pong');
-       }
+       //message.reply('pong');
+       message.channel.send('pong');
+    }
 });
 
 /*
@@ -48,5 +55,4 @@ Unbedingt sehen!
 }); */
 
 
-//DAS MUSS MIT REIN
-bot.login(process.env.BOT_TOKEN);
+
