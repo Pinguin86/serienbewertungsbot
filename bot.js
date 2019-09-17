@@ -20,6 +20,7 @@ bot.on('message', message => {
 	
 	const args = message.content.slice(config.prefix.length).split(' ');
 	const command = args.shift().toLowerCase();
+	
     	if (message.content.startsWith(config.prefix + "ping")) {
         //message.reply('pong');
         message.channel.send("pong");
@@ -43,9 +44,9 @@ bot.on('message', message => {
 	}
 
 	message.channel.send(`First argument: ${args[0]}`);
-	},
-		message.channel.send(`Command name: ${command}\nArguments: ${args}`);
 	}
+		//message.channel.send(`Command name: ${command}\nArguments: ${args}`);
+	//}
 
 });
 
