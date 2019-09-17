@@ -18,24 +18,13 @@ bot.on('message', message => {
 	//Exit if message is empty or other bot uses prefix
     	if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 	
-	const args = message.content.slice(config.prefix.length).split(' ');
+	const args = message.content.slice(config.prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 	
-    	if (message.content.startsWith(config.prefix + "ping")) {
-        //message.reply('pong');
-        message.channel.send("pong");
-    } else
-	    if(message.content.startsWith(config.prefix + "serienbewertung")) {
-		    message.channel.send("```test```"); 
-		    //bot.users.get("621696474723385344").send("```test```");
-	    }
-	else
-	    if(message.content.startsWith(config.prefix + "serienbewertung" + "request")) {
-		    message.author.send("```test2```"); 
-	    }
+    	
 	// using the new `command` variable, this makes it easier to manage!
 	// you can switch your other commands to this format as well
-	else if (command === 'args-info') {
+	if (command === 'args-info') {
 		if (!args.length) {
 			return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
 		}
@@ -88,3 +77,15 @@ Unbedingt sehen!
 
 
 
+//if (message.content.startsWith(config.prefix + "ping")) {
+        //message.reply('pong');
+  //      message.channel.send("pong");
+    //} else
+	//    if(message.content.startsWith(config.prefix + "serienbewertung")) {
+	//	    message.channel.send("```test```"); 
+		    //bot.users.get("621696474723385344").send("```test```");
+	  //  }
+	//else
+	  //  if(message.content.startsWith(config.prefix + "serienbewertung" + "request")) {
+	//	    message.author.send("```test2```"); 
+	    //}
