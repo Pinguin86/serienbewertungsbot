@@ -25,14 +25,15 @@ bot.on('message', message => {
 	const args = message.content.slice(config.prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 	
-	if(command === 'ping') {
-		bot.commands.get('ping').execute(message, args);
-	
-	}
-	if(command === 'serienbewertung') {
-		bot.commands.get('serienbewertung').execute(message, args);
-	
-	}
+	if (!bot.commands.has(command)) return;
+
+	try {
+	bot.commands.get(command).execute(message, args);
+		} catch (error) {
+			console.error(error);
+			message.reply('there was an error trying to execute that command!');
+}
+
 });
 	// using the new `command` variable, this makes it easier to manage!
 	// you can switch your other commands to this format as well
