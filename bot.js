@@ -17,6 +17,9 @@ bot.login(process.env.BOT_TOKEN);
 bot.on('message', message => {
 	//Exit if message is empty or other bot uses prefix
     	if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+	
+	const args = message.content.slice(config.prefix.length).split(' ');
+	const command = args.shift().toLowerCase();
     	if (message.content.startsWith(config.prefix + "ping")) {
         //message.reply('pong');
         message.channel.send("pong");
@@ -29,6 +32,15 @@ bot.on('message', message => {
 	    if(message.content.startsWith(config.prefix + "serienbewertung" + "request")) {
 		    message.author.send("```test2```"); 
 	    }
+	// using the new `command` variable, this makes it easier to manage!
+	// you can switch your other commands to this format as well
+	else if (command === 'args-info') {
+		if (!args.length) {
+			return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+		}
+		message.channel.send(`Command name: ${command}\nArguments: ${args}`);
+	}
+
 });
 
 /*
