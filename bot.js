@@ -24,6 +24,10 @@ bot.on('message', message => {
 	    if(message.content.startsWith(config.prefix + "serienbewertung")) {
 		    message.channel.send("```test```"); 
 	    }
+	else
+	    if(message.content.startsWith(config.prefix + "serienbewertung" + "request")) {
+		    message.author.send("```test```"); 
+	    }
 });
 
 /*
