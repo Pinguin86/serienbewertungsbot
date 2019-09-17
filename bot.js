@@ -27,8 +27,7 @@ bot.on('message', message => {
 	
 	if(command === 'ping') {
 		bot.commands.get('ping').execute(message, args);
-	} else if (command === 'serienbewertung') {
-		client.commands.get('serienbewertung').execute(message, args);	
+	
 	}
 });
 	// using the new `command` variable, this makes it easier to manage!
