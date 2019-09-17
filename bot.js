@@ -29,6 +29,10 @@ bot.on('message', message => {
 		bot.commands.get('ping').execute(message, args);
 	
 	}
+	if(command === 'serienbewertung') {
+		bot.commands.get('serienbewertung').execute(message, args);
+	
+	}
 });
 	// using the new `command` variable, this makes it easier to manage!
 	// you can switch your other commands to this format as well
