@@ -1,11 +1,15 @@
-// require the discord.js module
-const Discord = require('discord.js');
+const fs = require('fs');
+const Discord = require('discord.js'); // require the discord.js module
+const config  = require('./config.json'); // require config.json
 
-// create a new Discord client
-const bot = new Discord.Client();
+const bot = new Discord.Client();  // create a new Discord client
+bot.commands = new Discord.Collextion();
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
-// require config.json
-const config  = require('./config.json');
+for (const file of commandFiles) {
+	const command = require('./commands/${file}');
+	client.commands.set(command.name, command);
+}
 
 bot.on('ready', () => {
     console.log('I am ready!');
@@ -22,6 +26,7 @@ bot.on('message', message => {
 	const command = args.shift().toLowerCase();
 	
     	
+
 	// using the new `command` variable, this makes it easier to manage!
 	// you can switch your other commands to this format as well
 	if (command === 'args-info') {
