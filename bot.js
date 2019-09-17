@@ -26,7 +26,7 @@ bot.on('message', message => {
 	    }
 	else
 	    if(message.content.startsWith(config.prefix + "serienbewertung" + "request")) {
-		    message.author.send("```test```"); 
+		    message.author.send("```test2```"); 
 	    }
 });
 
