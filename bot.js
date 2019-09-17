@@ -3,7 +3,7 @@ const Discord = require('discord.js'); // require the discord.js module
 const config  = require('./config.json'); // require config.json
 
 const bot = new Discord.Client();  // create a new Discord client
-bot.commands = new Discord.Collextion();
+bot.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
@@ -25,24 +25,28 @@ bot.on('message', message => {
 	const args = message.content.slice(config.prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 	
-    	
-
+	if(command === 'ping') {
+		bot.commands.get('ping').execute(message, args);
+	} else if (command === 'serienbewertung') {
+		client.commands.get('serienbewertung').execute(message, args);	
+	}
+});
 	// using the new `command` variable, this makes it easier to manage!
 	// you can switch your other commands to this format as well
-	if (command === 'args-info') {
-		if (!args.length) {
-			return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
-		}
-		else if (args[0] === 'foo') {
-		return message.channel.send('bar');
-	}
+	//if (command === 'args-info') {
+	//	if (!args.length) {
+	//		return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+	//	}
+	//	else if (args[0] === 'foo') {
+	//	return message.channel.send('bar');
+	//}
 
-	message.channel.send(`First argument: ${args[0]}`);
-	}
+	//message.channel.send(`First argument: ${args[0]}`);
+	//}
 		//message.channel.send(`Command name: ${command}\nArguments: ${args}`);
 	//}
 
-});
+//});
 
 /*
 bot.on('message', function (user, userID, channelID, message, evt) {
