@@ -1,4 +1,4 @@
-module.exports.run = {
+module.exports = {
 	name: 'sbrequest',
 	aliases: ['request', 'sbr','serienbewertungrequest'],
 	description: 'Sendet eine Nachricht an Pinguin86 mit der Serie die bewertet werden soll.',
