@@ -5,7 +5,7 @@ module.exports = {
 	args: true,
 	usage: '<Name der Serie>',
 	execute(message, args) {
-  //message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
-  bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
+ 	 //message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
+ 	message.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
 	},
 };
