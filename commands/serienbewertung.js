@@ -2,10 +2,9 @@ module.exports = {
 	name: 'serienbewertung',
 	aliases: ['sb', 'serienb', 'sbewertung'],
 	description: 'provide a serienbewertung for a specific tv-series',
+	args: true,
 	execute(message, args) {
-		if (!args.length) {
-			return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
-		} else if (args[0].toLowerCase() === 'happy' || args[0].toLowerCase() === 'happy!' ) {
+		 if (args[0].toLowerCase() === 'happy' || args[0].toLowerCase() === 'happy!' ) {
 			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "HAPPY!" \n'+
 						    'Serie beinhaltet: Christopher Meloni, Lili Mironjnick (how the fuck do you spell your name?), Christopher Fitzgerald \n'+
 						    'Viel Gewalt in der Serie. \n'+
