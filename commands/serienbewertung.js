@@ -27,5 +27,5 @@ module.exports = {
 						    'Erfüllt nicht die Erwartungen von Pinguin, trotzdem besser als "Blacklist"```');
 			
 		}
-	}
+	},
 };
