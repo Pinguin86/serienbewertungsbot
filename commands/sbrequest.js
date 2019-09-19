@@ -13,8 +13,8 @@ module.exports = {
 		//return message.bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
 		// return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);		
 		//return bot.users.fetch("144189617061494784").then((user) =>{ user.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);   })	
-		return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`),
+		//return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`),
 		console.log(/*message.*/bot.users)
-		//return bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`)
+		return bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`)
 	},
 };
