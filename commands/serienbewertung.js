@@ -26,6 +26,29 @@ module.exports = {
 						    'Daher Empfehlung: Nur eine Staffel verfügbar, kann man sich ansehen solange man nicht zuviel Tiefgang erwartet.  \n'+
 						    'Erfüllt nicht die Erwartungen von Pinguin, trotzdem besser als "Blacklist"```');
 			
+		} else if (args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === '9' && args[2].toLowerCase() === '9' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === 'nine' && args[2].toLowerCase() === 'nine' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === '99' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === 'nine-nine') {
+			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "Brooklyn 99" \n'+
+						    'Serie beinhaltet: Andy Samberg, Stephanie Beatriz, Terry Crews (<3) \n'+
+						    'Wurde durch Terry Crews ca 10mal so gut wie ohne Terry Crews. \n'+
+						    'Wäre auch ohne Terry Crews eine geile Serie. \n'+
+						    'Stephanie Beatriz ist verdammt sexy. \n'+
+						    'Terry Crews ist verdammt lustig.  \n'+
+						    'Andy Samberg ist auch sehr lustig. \n'+
+						    'Daher Empfehlung: \n'+
+						    'Unbedingt sehen!```');
+			
+		} else if (args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'spy') {
+			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "The spy" \n'+
+						    'Serie beinhaltet: Sacha Baron Cohen. Wurde mir verleidet Dank Filme wie \n'+
+						    '"Borat" \n'+
+						    '"Ali G" \n'+
+						    'und anderer Möchtegernwitzfiguren die er gespielt hat \n'+
+						    'Desweiteren:   \n'+
+						    'Serie sieht wie Abklatsch von "The americans" aus \n'+
+						    'Abklatsch=Abfall \n'+
+						    'Daher Alternativvorschlag: \n'+
+						    '"The americans"```');
+			
 		}
 	},
 };
