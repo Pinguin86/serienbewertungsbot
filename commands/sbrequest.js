@@ -7,7 +7,7 @@ module.exports = {
 	execute(message, args) {
  	 //message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
 	//	bot.users.get("YOUR ID HERE").sendMessage
- 	message.bot.fetchUser("144189617061494784").then((user){
+ 	message.bot.fetchUser("144189617061494784").then((user) => {
 		user.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
 	})},
 };
