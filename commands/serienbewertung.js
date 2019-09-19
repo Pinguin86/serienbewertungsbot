@@ -26,5 +26,5 @@ module.exports = {
 						    'Daher Empfehlung: Nur eine Staffel verfügbar, kann man sich ansehen solange man nicht zuviel Tiefgang erwartet.  \n'+
 						    'Erfüllt nicht die Erwartungen von Pinguin, trotzdem besser als "Blacklist"```');
 			
-		},
+		}
 };
