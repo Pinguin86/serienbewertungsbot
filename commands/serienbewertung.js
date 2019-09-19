@@ -3,6 +3,7 @@ module.exports = {
 	aliases: ['sb', 'serienb', 'sbewertung'],
 	description: 'provide a serienbewertung for a specific tv-series',
 	args: true,
+	usage: '<Name der Serie>',
 	execute(message, args) {
 		 if (args[0].toLowerCase() === 'happy' || args[0].toLowerCase() === 'happy!' ) {
 			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "HAPPY!" \n'+
