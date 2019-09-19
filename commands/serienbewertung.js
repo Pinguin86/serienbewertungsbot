@@ -1,5 +1,6 @@
 module.exports = {
 	name: 'serienbewertung',
+	aliases: ['sb', 'serienb', 'sbewertung'],
 	description: 'provide a serienbewertung for a specific tv-series',
 	execute(message, args) {
 		if (!args.length) {
