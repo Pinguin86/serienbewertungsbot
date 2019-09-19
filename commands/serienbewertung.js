@@ -50,8 +50,8 @@ module.exports = {
 						    'Daher Alternativvorschlag: \n'+
 						    '"The americans"```');
 			
-		} if (!command) {
-			return message.reply('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
-		}
+		} 
+		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
+		
 	},
 };
