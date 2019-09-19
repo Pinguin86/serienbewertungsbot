@@ -17,8 +17,7 @@ module.exports = {
 					            'Daher Empfehlung: \n'+
 				                    'Unbedingt sehen!```');
 			
-		}
-		} else if (args[0].toLowerCase() === 'better' && args[1].toLowerCase() === 'than' && args[3].toLowerCase() === 'us') {
+		} else if (args[0].toLowerCase() === 'better' && args[1].toLowerCase() === 'than' && args[2].toLowerCase() === 'us') {
 			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "Better Than Us" \n'+
 						    'Serie beinhaltet: random Russische Schauspieler wie Paulina Andreeva, Kirill Käro, Eldar Kalimulin und Vera Panfilova \n'+
 						    'Gute Idee: Sexroboter hat Gefühle, ein Gewissen und denkt selbstständig, findet "Familie" in Form von zwei Kindern, einem Mann und einer Ehefrau die mit ihrem Geliebten flüchten will \n'+
