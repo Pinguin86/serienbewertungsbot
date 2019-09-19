@@ -10,6 +10,6 @@ module.exports = {
 		//fetchUser('123456789').then((user) => {    user.send("My Message");
  		//bot.fetchUser("144189617061494784").then((user) =>{ user.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);   })	
 		//bot.users.get("144189617061494784").
-		message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);		
+		 return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);		
 	},
 };
