@@ -6,7 +6,7 @@ module.exports = {
 	usage: '<Name der Serie>',
 	execute(message, args) {
 		 if (args[0].toLowerCase() === 'happy' || args[0].toLowerCase() === 'happy!' ) {
-			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "HAPPY!" \n'+
+			return message.channel.send('```verarbeite: !Serienbewertung "HAPPY!" \n'+
 						    'Serie beinhaltet: Christopher Meloni, Lili Mironjnick (how the fuck do you spell your name?), Christopher Fitzgerald \n'+
 						    'Viel Gewalt in der Serie. \n'+
 						    'Wurde durch die viele Gewalt viel besser. \n'+
@@ -19,7 +19,7 @@ module.exports = {
 				                    'Unbedingt sehen!```');
 			
 		} else if (args[0].toLowerCase() === 'better' && args[1].toLowerCase() === 'than' && args[2].toLowerCase() === 'us') {
-			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "Better Than Us" \n'+
+			return message.channel.send('```verarbeite: !Serienbewertung "Better Than Us" \n'+
 						    'Serie beinhaltet: random Russische Schauspieler wie Paulina Andreeva, Kirill Käro, Eldar Kalimulin und Vera Panfilova \n'+
 						    'Gute Idee: Sexroboter hat Gefühle, ein Gewissen und denkt selbstständig, findet "Familie" in Form von zwei Kindern, einem Mann und einer Ehefrau die mit ihrem Geliebten flüchten will \n'+
 						    'Semigute Umsetzung: Zu wenig Sex mit dem Roboter; obwohl der Sexbot teilweise selbstständig denkt und handelt, kommt die Diskussion "Wie wichtig/hilfreich/gefährlich sind selbstdenkende Roboter" nur nebenbei auf;  \n'+
@@ -28,7 +28,7 @@ module.exports = {
 						    'Erfüllt nicht die Erwartungen von Pinguin, trotzdem besser als "Blacklist"```');
 			
 		} else if (args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === '9' && args[2].toLowerCase() === '9' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === 'nine' && args[2].toLowerCase() === 'nine' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === '99' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === 'nine-nine') {
-			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "Brooklyn 99" \n'+
+			return message.channel.send('```verarbeite: !Serienbewertung "Brooklyn 99" \n'+
 						    'Serie beinhaltet: Andy Samberg, Stephanie Beatriz, Terry Crews (<3) \n'+
 						    'Wurde durch Terry Crews ca 10mal so gut wie ohne Terry Crews. \n'+
 						    'Wäre auch ohne Terry Crews eine geile Serie. \n'+
@@ -39,7 +39,7 @@ module.exports = {
 						    'Unbedingt sehen!```');
 			
 		} else if (args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'spy') {
-			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "The spy" \n'+
+			return message.channel.send('```verarbeite: !Serienbewertung "The spy" \n'+
 						    'Serie beinhaltet: Sacha Baron Cohen. Wurde mir verleidet Dank Filme wie \n'+
 						    '"Borat" \n'+
 						    '"Ali G" \n'+
