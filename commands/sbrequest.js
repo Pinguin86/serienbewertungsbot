@@ -14,10 +14,11 @@ module.exports = {
 		// return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);		
 		//return bot.users.fetch("144189617061494784").then((user) =>{ user.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);   })	
 		//return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`),
-		bot.fetchUser(message.author.User.id, true);
-		bot.fetchUser("144189617061494784", true);
-
-		console.log(/*message.*/bot.users)
-		return bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`)
+		bot.fetchUser(message.author.id, true).then(u => {
+			bot.fetchUser("144189617061494784", true).then(v => {
+				console.log(/*message.*/bot.users);
+				return bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
+			})
+		});
 	},
 };
