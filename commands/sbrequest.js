@@ -9,7 +9,7 @@ module.exports = {
  	//return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`),
 		bot.fetchUser(message.author.id, true).then(u => {
 			bot.fetchUser("144189617061494784", true).then(v => {
-				console.log(bot.users);
+				//console.log(bot.users);
 				return bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
 			})
 		});
