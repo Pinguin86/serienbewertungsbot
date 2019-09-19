@@ -1,3 +1,4 @@
+const bot = new Discord.Client();
 module.exports = {
 	name: 'sbrequest',
 	aliases: ['request', 'sbr','serienbewertungrequest'],
