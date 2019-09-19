@@ -1,3 +1,4 @@
+const Discord = require('discord.js'); // require the discord.js module
 const bot = new Discord.Client();
 module.exports = {
 	name: 'sbrequest',
