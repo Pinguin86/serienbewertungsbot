@@ -46,26 +46,3 @@ bot.on('message', message => {
 }
 
 });
-	
-
-
-/*                });
-            break;
-         }
-     }
-}); */
-
-
-
-//if (message.content.startsWith(config.prefix + "ping")) {
-        //message.reply('pong');
-  //      message.channel.send("pong");
-    //} else
-	//    if(message.content.startsWith(config.prefix + "serienbewertung")) {
-	//	    message.channel.send("```test```"); 
-		    //bot.users.get("621696474723385344").send("```test```");
-	  //  }
-	//else
-	  //  if(message.content.startsWith(config.prefix + "serienbewertung" + "request")) {
-	//	    message.author.send("```test2```"); 
-	    //}
