@@ -1,5 +1,3 @@
-const Discord = require('discord.js'); // require the discord.js module
-const bot = new Discord.Client();
 module.exports = {
 	name: 'sbrequest',
 	aliases: ['request', 'sbr','serienbewertungrequest'],
@@ -7,6 +5,7 @@ module.exports = {
 	args: true,
 	usage: '<Name der Serie>',
 	execute(bot, message, args) {
+	
  	 //message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
 	//	bot.users.get("YOUR ID HERE").sendMessage
 		//fetchUser('123456789').then((user) => {    user.send("My Message");
