@@ -3,7 +3,7 @@ const { prefix } = require('../config.json');
 module.exports = {
 	name: 'help',
 	description: 'Liste der Befehle für den Serienbewertungsbot oder Informationen über einen bestimmten Befehl.',
-	aliases: ['commands'],
+	aliases: ['commands', 'befehle', 'befehl'],
 	usage: '[command name]',
 	cooldown: 5,
 	execute(message, args) {
