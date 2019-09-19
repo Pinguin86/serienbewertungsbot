@@ -7,6 +7,9 @@ module.exports = {
 		} else if (args[0] === 'foo') {
 			return message.channel.send('bar');
 		}
+		else if (args[0] === 'bar foo') {
+			return message.channel.send('bar bar');
+		}
 
 		message.channel.send(`First argument: ${args[0]}`);
 	},
