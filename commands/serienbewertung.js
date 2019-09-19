@@ -4,7 +4,7 @@ module.exports = {
 	execute(message, args) {
 		if (!args.length) {
 			return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
-		} else if (args[0] === 'happy') {
+		} else if (args[0].shift().toLowerCase() === 'happy') {
 			return message.channel.send('```verarbeite: !Pinguin Serienbewertung "HAPPY" \n'+
 						    'Serie beinhaltet: Christopher Meloni, Lili Mironjnick (how the fuck do you spell your name?), Christopher Fitzgerald \n'+
 						    'Viel Gewalt in der Serie. \n'+
