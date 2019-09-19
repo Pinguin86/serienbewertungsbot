@@ -25,6 +25,7 @@ bot.on('message', message => {
 	const args = message.content.slice(config.prefix.length).split(/ +/);
 	const commandName = args.shift().toLowerCase();
 	
+	bot.users.get();
 	const command = bot.commands.get(commandName)
 	|| bot.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 	
