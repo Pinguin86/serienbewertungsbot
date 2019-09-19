@@ -8,7 +8,7 @@ module.exports = {
  	 //message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
 	//	bot.users.get("YOUR ID HERE").sendMessage
 		//fetchUser('123456789').then((user) => {    user.send("My Message");
- 		return message.bot.fetchUser("144189617061494784").then((user) =>{ user.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);   })	
+ 		return bot.fetchUser("144189617061494784").then((user) =>{ user.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);   })	
 		//return message.bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
 		// return message.channel.send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);		
 	},
