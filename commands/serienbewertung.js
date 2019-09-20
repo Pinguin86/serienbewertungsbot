@@ -111,18 +111,28 @@ module.exports = {
 			
 		} else if (args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' +
 			  args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel' && args[5].toLowerCase() === 'air') {
-			return message.channel.send('```verarbeite: !Serienbewertung "The Expanse" \n'+
-						    'Serie beinhaltet: Steven Strait, Dominique Tipper, Cas Anvar, Wes Chatham und Shohreh Aghdashloo (Gesundheit!) \n'+
-						    'Serienadaption zur gleichnamigen Buchreihe von Daniel Abraham \n'+
-						    'Die Menschheit hat Teile des Universums besidelt \n'+
-						    'Amerika ist zur Weltregierung aufgestiegen \n'+
-						    'Wir werden alle sterben \n'+
-						    '... \n'+
-						    'Kleiner Witz :D\n'+
-						    'Politische Spannungen, viele Arbeitslose, ein unabhängiger Mars und der andauernde Konflikt zwischen dem Mars, den Vereinten Nationen und der Outer Planet Alliance werden in der Serie näher beleuchtet  \n'+
-						    'Außerdem zu sehen: Sex in Schwerelosigkeit \n'+
-						    'Desweiteren: FEDORA aufm Kopf!!! \n'+
-						    'Allein deswegen sollte man sich die Serie anschauen!\n'+
+			return message.channel.send('```verarbeite: !Serienbewertung "The fresh prince of Bel-air" \n'+
+						    'Serie beinhaltet: Will Smith, James Avery, Alfonso Ribeiro, Karyn Parsons, Tatyana Ali, Joseph Marcell, Ross Bagley und viele Gastauftritte von berühmten Menschen \n'+
+						    '*rap* Now this is a story all about how \n'+
+						    'my life got flipped turned upside down \n'+
+						    'and I`d like to take a minute just sit right there \n'+
+						    'I`ll tell you how I become the prince of a town called Bel Air \n'+
+						    'in west Philadelphia born and raised \n'+
+						    'on the playground is where I spent most of my days\n'+
+						    'chillin` out maxin` relaxin` all cool  \n'+
+						    'and all shootin` some b ball outside of the school \n'+
+						    'when a couple of guys who were up to no good \n'+
+						    'started makin` trouble in my neighborhood\n'+
+						    'I got in one little fight and my mon scared \n'+
+						    'and said you`re movin` with your auntie and uncle in Bel-Air \n'+
+						    'I whistled for a cab and when it came near \n'+
+						    'the licensce plate said fresh and it had dice in the mirror \n'+
+						    'if anything I could say that this cab was rare \n'+
+						    'but I thought man forget it yo homes to Bel-Air \n'+
+						    'I pulled up to the house about 7 or 8 \n'+
+						    'and I yelled to the cabbie yo homes smell ya later \n'+
+						    'looked at my kingdom I was finally there \n'+
+						    'to sit on my throne as the prince of Bel-Air \n'+
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
 			
