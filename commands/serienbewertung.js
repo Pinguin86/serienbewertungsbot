@@ -158,16 +158,24 @@ module.exports = {
 			   || args[0].toLowerCase() === 'star' && args[1].toLowerCase() === 'gate' 
 			   || args[0].toLowerCase() === 'star' && args[1].toLowerCase() === 'gate' && args[2].toLowerCase() === 'sg1'
 			   || args[0].toLowerCase() === 'star' && args[1].toLowerCase() === 'gate' && args[2].toLowerCase() === 'sg' && args[3].toLowerCase() === '1') {
-			return message.channel.send('```verarbeite: !Serienbewertung "Brooklyn 99" \n'+
-						    'Serie beinhaltet: Andy Samberg, Stephanie Beatriz, Terry Crews (<3) \n'+
-						    'Wurde durch Terry Crews ca 10mal so gut wie ohne Terry Crews. \n'+
-						    'Wäre auch ohne Terry Crews eine geile Serie. \n'+
-						    'Stephanie Beatriz ist verdammt sexy. \n'+
-						    'Terry Crews ist verdammt lustig.  \n'+
-						    'Andy Samberg ist auch sehr lustig. \n'+
+			return message.channel.send('```verarbeite: !Serienbewertung "Stargate SG1" \n'+
+						    'Serie beinhaltet: Richard Dean Anderson, Amanda Tapping, Christopher Judge, Michael Shanks, Don S. Davis und Teryl Rothery \n'+
+						    'Basiert auf dem Kinofilm "Stargate" von 1994 \n'+
+						    'Auf der Erde wird ein Stargate, ein Tor zu den Sternen, gefunden \n'+
+						    'Endlich können fremde Planeten besucht werden! Yay!\n'+
+						    'Aber nur wenn man ihre Adresse kennt! Nay! \n'+
+						    'Wir haben die notwendigen Computer um die Adressen zu brutforcen! Yay! \n'+
+						    'Auf den fremden Planeten müssen wir uns aber mit den Goa`uld rumschlagen! Nay! \n'+
+						    'Die Menschheit bildet Allianzen mit Aliens! Yay! \n'+
+						    'Wenn eine Bedrohung beseitigt wurde, erscheint direkt die nächste! Nay! \n'+
+						    'Es gibt 10 Staffeln SG1 und zwei Ablegerserien! Yay! \n'+
+						    'Viel Bingeworthy material! Yay! \n'+
+						    'Immer wieder interessante und spannende Missionen! Yay! \n'+
+						    'Kleine graue Männchen: Die Asgard! Yay! \n'+
+						    'Sieben Yay, zwei Nay! \n'+
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt sehen!```');
-		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
+		} return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
 	},
 };
