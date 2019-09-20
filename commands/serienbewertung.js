@@ -133,8 +133,10 @@ module.exports = {
 						    'and I yelled to the cabbie yo homes smell ya later \n'+
 						    'looked at my kingdom I was finally there \n'+
 						    'to sit on my throne as the prince of Bel-Air \n'+
+						    'US-amerikanische Sitcom über den jungen Will Smith der zu seinem Onkel und seiner Tante nach Los Angeles zieht und dort allerlei Ärger und Dummheiten verursacht\n'+
+						    'Denkwürdige Momente: Calton tanzt, Will vs Carlton, Will bringt Ashley Selbstverteidigung bei oder Jazz wird rausgeworfen \n'+
 						    'Daher Empfehlung: \n'+
-						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
+						    'Unbedingt anschauen!!!```');
 			
 		}
 		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
