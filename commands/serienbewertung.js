@@ -93,6 +93,22 @@ module.exports = {
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen!!!```');
 			
+		} else if (args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'expanse') {
+			return message.channel.send('```verarbeite: !Serienbewertung "The Expanse" \n'+
+						    'Serie beinhaltet: Steven Strait, Dominique Tipper, Cas Anvar, Wes Chatham und Shohreh Aghdashloo (Gesundheit!) \n'+
+						    'Serienadaption zur gleichnamigen Buchreihe von Daniel Abraham \n'+
+						    'Die Menschheit hat Teile des Universums besidelt \n'+
+						    'Amerika ist zur Weltregierung aufgestiegen \n'+
+						    'Wir werden alle sterben \n'+
+						    '... \n'+
+						    'Kleiner Witz :D\n'+
+						    'Politische Spannungen, viele Arbeitslose, ein unabhängiger Mars und der andauernde Konflikt zwischen dem Mars, den Vereinten Nationen und der Outer Planet Alliance werden in der Serie näher beleuchtet  \n'+
+						    'Außerdem zu sehen: Sex in Schwerelosigkeit \n'+
+						    'Desweiteren: FEDORA aufm Kopf!!! \n'+
+						    'Allein deswegen sollte man sich die Serie anschauen!\n'+
+						    'Daher Empfehlung: \n'+
+						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
+			
 		}
 		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
