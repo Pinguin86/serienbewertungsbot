@@ -109,9 +109,18 @@ module.exports = {
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
 			
-		} else if (args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' ||+
-			  args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel' && args[5].toLowerCase() === 'air' ||+
-			 args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'the'  && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' ||  args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || args[0].toLowerCase() === 'the' &&  args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' ) {
+		} else if (args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel-air' || +
+			   args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || +
+			   args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel-air' || +
+			   args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' ||+
+			   args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || +
+			   args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' || +
+			   args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel-air' || +
+			   args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel' && args[5].toLowerCase() === 'air' ||+
+			   args[0].toLowerCase() === 'the'  && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || +
+			   args[0].toLowerCase() === 'the' &&  args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' ||+
+			   args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel-air' ||+
+			   args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air') {
 			return message.channel.send('```verarbeite: !Serienbewertung "The fresh prince of Bel-air" \n'+
 						    'Serie beinhaltet: Will Smith, James Avery, Alfonso Ribeiro, Karyn Parsons, Tatyana Ali, Joseph Marcell, Ross Bagley und viele Gastauftritte von berühmten Menschen \n'+
 						    '*rap* Now this is a story all about how \n'+
