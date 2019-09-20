@@ -67,7 +67,7 @@ module.exports = {
 		} else if (args[0].toLowerCase() === 'surf' && args[1].toLowerCase() === 'nazis' ||args[0].toLowerCase() === 'surf' && args[1].toLowerCase() === 'nazis' && args[2].toLowerCase() === 'must' && args[3].toLowerCase() === 'die') {
 			return message.channel.send('```verarbeite: !Serienbewertung "Surf Nazis Must Die" \n'+
 						    'Serie beinhaltet: Barry Brenner, Dawn Wildsmith, Gail Neely, Joel Hile, Michael Sonye und Robert Harden \n'+
-						    ' US-amerikanischer Low-Budget-Film aus dem Jahr 1987 aus der Kategorie des Exploitationfilms \n'+
+						    'US-amerikanischer Low-Budget-Film aus dem Jahr 1987 aus der Kategorie des Exploitationfilms \n'+
 						    'Der Titel deutet den Plot schon an. \n'+
 						    'Nach einem Erdbeben stirbt ein Teil von Kalifornien aus und eine Bedrohung schlimmer als Tod und Zerstörung sucht Kalifornien heim: \n'+
 						    'SURF NAZIS *suspensful music* \n'+
@@ -78,6 +78,20 @@ module.exports = {
 						    'Surfenszenen, Gangszenen und Kampfszenen wechseln sich ab und "solanga Mama lebt, werden Surf Nazis sterben!"  \n'+
 						    'Daher Empfehlung: \n'+
 						    'Der Bot ist verwirrt, aber der Film klingt lustig, daher: Anschauen wenn ihr auf trashige Filme steht!```');
+			
+		} else if (args[0].toLowerCase() === 'russian' && args[1].toLowerCase() === 'doll') {
+			return message.channel.send('```verarbeite: !Serienbewertung "Russian Doll" \n'+
+						    'Serie beinhaltet: Natasha Lyonne, Greta Lee, Charlie Barnett, Jeremy Bobb und Rebecca Henderson \n'+
+						    'Täglich grüßt das Murmeltier meets die alte aus Orange is the new Black und American Pie \n'+
+						    'Spieleentwicklerin Nadia Vulvokov stirbt und erlebt die 24 Stunden seit dem Abend ihres 36. Geburtstages immer und immer wieder \n'+
+						    'Jedesmal wacht sie in diesem verdammten Badezimmer auf \n'+
+						    'Im Laufe der Serie vergisst sie wie man eine Treppe runterläuft, lässt sich von einem Obdachlosen die Haare schneiden und versucht die Ursache für diesen Murmeltiertag zu finden \n'+
+						    'Die Tode sind lustig, die Charaktere interessant, die Sprache spart nicht mit Kraftausdrücken...und Natasha Fucking Lyonne spielt mit! \n'+
+						    'Lauter positive Sachen\n'+
+						    'Logischerweise gibt es im Verlauf der Serie auch einen Twist, so dass man sich fragt wie es weitergeht. \n'+
+						    'Um herauszufinden was das ganze mit Nadias Mutter zu tun hat und warum eine Orange nur außen schlecht ist müsst ihr euch die Serie anschauen \n'+
+						    'Daher Empfehlung: \n'+
+						    'Unbedingt anschauen!!!```');
 			
 		}
 		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
