@@ -155,7 +155,9 @@ module.exports = {
 			
 		} else if (args[0].toLowerCase() === 'stargate' && args[1].toLowerCase() === 'sg' && args[2].toLowerCase() === '1' 
 			   || args[0].toLowerCase() === 'stargate' && args[1].toLowerCase() === 'sg1'
-			   || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === '99' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === 'nine-nine') {
+			   || args[0].toLowerCase() === 'star' && args[1].toLowerCase() === 'gate' 
+			   || args[0].toLowerCase() === 'star' && args[1].toLowerCase() === 'gate' && args[2].toLowerCase() === 'sg1'
+			   || args[0].toLowerCase() === 'star' && args[1].toLowerCase() === 'gate' && args[2].toLowerCase() === 'sg' && args[3].toLowerCase() === '1') {
 			return message.channel.send('```verarbeite: !Serienbewertung "Brooklyn 99" \n'+
 						    'Serie beinhaltet: Andy Samberg, Stephanie Beatriz, Terry Crews (<3) \n'+
 						    'Wurde durch Terry Crews ca 10mal so gut wie ohne Terry Crews. \n'+
