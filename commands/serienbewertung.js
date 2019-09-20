@@ -97,7 +97,7 @@ module.exports = {
 			return message.channel.send('```verarbeite: !Serienbewertung "The Expanse" \n'+
 						    'Serie beinhaltet: Steven Strait, Dominique Tipper, Cas Anvar, Wes Chatham und Shohreh Aghdashloo (Gesundheit!) \n'+
 						    'Serienadaption zur gleichnamigen Buchreihe von Daniel Abraham \n'+
-						    'Die Menschheit hat Teile des Weltalls besiedelt \n'+
+						    'Die Menschheit hat Teile des Sonnensystems besiedelt \n'+
 						    'Amerika ist zur Weltregierung aufgestiegen \n'+
 						    'Wir werden alle sterben \n'+
 						    '... \n'+
