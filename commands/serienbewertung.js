@@ -50,7 +50,36 @@ module.exports = {
 						    'Daher Alternativvorschlag: \n'+
 						    '"The americans"```');
 			
-		} 
+		} else if (args[0].toLowerCase() === 'saber' && args[1].toLowerCase() === 'rider' ||args[0].toLowerCase() === 'saber' && args[1].toLowerCase() === 'rider' && args[2].toLowerCase() === 'and' && args[3].toLowerCase() === 'the' && args[4].toLowerCase() === 'star' && args[5].toLowerCase() === 'sheriffs') {
+			return message.channel.send('```verarbeite: !Serienbewertung "Saber Rider and the Star Sheriffs" \n'+
+						    'Serie beinhaltet die Stimmen von: Pat Musick, Patrick Fraley, Rob Paulsen, Townsend Coleman und Peter Cullen \n'+
+						    'japanischer Anime der 1987 in 52 Folgen in Amerika ausgestrahlt wurde \n'+
+						    'schon die ersten zwei Worte des Titels, "Star" und "Sheriffs", deutet an worum es in der Kinderserie geht. \n'+
+						    'Ein Weltraumwestern in der Zukunft mit Roboterpferden, Laserrevolvern und Raumschiffen \n'+
+						    'Der Plot: Die Menschheit hat sich auf mehrere Planeten im Universum verteilt und wird von den Star Sheriffs beschützt \n'+
+						    'Der Bösewicht heißt "Vapor(!!!) Beings" \n'+
+						    'In 1987: Vapor = böse \n'+
+						    'Heute: Vapen = böse \n'+
+						    'Die Serie hat quasi die Zukunft vorhergesagt! \n'+
+						    'Daher Empfehlung: \n'+
+						    'In Nostalgie schwelgen und sich diesen Weltraumwestern unbedingt anschauen!!!```');
+			
+		} else if (args[0].toLowerCase() === 'surf' && args[1].toLowerCase() === 'nazis' ||args[0].toLowerCase() === 'surf' && args[1].toLowerCase() === 'nazis' && args[2].toLowerCase() === 'must' && args[3].toLowerCase() === 'die') {
+			return message.channel.send('```verarbeite: !Serienbewertung "Surf Nazis Must Die" \n'+
+						    'Serie beinhaltet: Barry Brenner, Dawn Wildsmith, Gail Neely, Joel Hile, Michael Sonye und Robert Harden \n'+
+						    ' US-amerikanischer Low-Budget-Film aus dem Jahr 1987 aus der Kategorie des Exploitationfilms \n'+
+						    'Der Titel deutet den Plot schon an. \n'+
+						    'Nach einem Erdbeben stirbt ein Teil von Kalifornien aus und eine Bedrohung schlimmer als Tod und Zerstörung sucht Kalifornien heim: \n'+
+						    'SURF NAZIS *suspensful music* \n'+
+						    'Um die quasi so noch nie gesehene Dramatik noch zu steigern kommt es zum Kampf zwischen den rivalisierenden Gangs der Surf Nazis und der Samurai Surfern \n'+
+						    'Beim Kampf stirbt Leroy Washington; seine Mutter will ihn rächen\n'+
+						    'Big Mama is killing Nazis, what could possibly go wrong for the Nazis? \n'+
+						    'Trailer ist trashig genug um Interesse zu wecken \n'+
+						    'Surfenszenen, Gangszenen und Kampfszenen wechseln sich ab und "solanga Mama lebt, werden Surf Nazis sterben!"  \n'+
+						    'Daher Empfehlung: \n'+
+						    'Der Bot ist verwirrt, aber der Film klingt lustig, daher: Anschauen wenn ihr auf trashige Filme steht!```');
+			
+		}
 		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
 	},
