@@ -109,23 +109,23 @@ module.exports = {
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
 			
-		} else if (args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel-air' ||
-			   args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || 
-			   args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel-air' || 
-			   args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'belair' ||
-			   args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' ||
-			   args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || 
-			   args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'belair' ||
-			   args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' || 
-			   args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel-air' || 
-			   args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'belair' || 
-			   args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel' && args[5].toLowerCase() === 'air' ||
-			   args[0].toLowerCase() === 'the'  && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || 
-			   args[0].toLowerCase() === 'the'  && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'belair' ||
-			   args[0].toLowerCase() === 'the' &&  args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' ||
-			   args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel-air' ||
-			   args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'belair' ||
-			   args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air') {
+		} else if (args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel-air' 
+			   || args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' 
+			   || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel-air' 
+			   || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'belair' 
+			   || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' 
+			   || args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air'  
+			   || args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'belair' 
+			   || args[0].toLowerCase() === 'fresh' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' 
+			   || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel-air'  
+			   || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'belair'  
+			   || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'fresh' && args[2].toLowerCase() === 'prince' && args[3].toLowerCase() === 'of' && args[4].toLowerCase() === 'bel' && args[5].toLowerCase() === 'air' 
+			   || args[0].toLowerCase() === 'the'  && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air'  
+			   || args[0].toLowerCase() === 'the'  && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'belair' 
+			   || args[0].toLowerCase() === 'the' &&  args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[4].toLowerCase() === 'air' 
+			   || args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel-air' 
+			   || args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'belair' 
+			   || args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air') {
 			return message.channel.send('```verarbeite: !Serienbewertung "The fresh prince of Bel-air" \n'+
 						    'Serie beinhaltet: Will Smith, James Avery, Alfonso Ribeiro, Karyn Parsons, Tatyana Ali, Joseph Marcell, Ross Bagley und viele Gastauftritte von berühmten Menschen \n'+
 						    '*rap* Now this is a story all about how \n'+
@@ -153,7 +153,18 @@ module.exports = {
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen!!!```');
 			
-		}
+		} else if (args[0].toLowerCase() === 'stargate' && args[1].toLowerCase() === 'sg' && args[2].toLowerCase() === '1' 
+			   || args[0].toLowerCase() === 'stargate' && args[1].toLowerCase() === 'sg1'
+			   || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === '99' || args[0].toLowerCase() === 'brooklyn' && args[1].toLowerCase() === 'nine-nine') {
+			return message.channel.send('```verarbeite: !Serienbewertung "Brooklyn 99" \n'+
+						    'Serie beinhaltet: Andy Samberg, Stephanie Beatriz, Terry Crews (<3) \n'+
+						    'Wurde durch Terry Crews ca 10mal so gut wie ohne Terry Crews. \n'+
+						    'Wäre auch ohne Terry Crews eine geile Serie. \n'+
+						    'Stephanie Beatriz ist verdammt sexy. \n'+
+						    'Terry Crews ist verdammt lustig.  \n'+
+						    'Andy Samberg ist auch sehr lustig. \n'+
+						    'Daher Empfehlung: \n'+
+						    'Unbedingt sehen!```');
 		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
 	},
