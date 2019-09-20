@@ -109,6 +109,23 @@ module.exports = {
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
 			
+		} else if (args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'prinz' && args[1].toLowerCase() === 'von' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || args[0].toLowerCase() === 'der' && args[1].toLowerCase() === 'prinz' && args[2].toLowerCase() === 'von' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' +
+			  args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel-air' || args[0].toLowerCase() === 'prince' && args[1].toLowerCase() === 'of' && args[2].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air' || args[0].toLowerCase() === 'the' && args[1].toLowerCase() === 'prince' && args[2].toLowerCase() === 'of' && args[3].toLowerCase() === 'bel' && args[3].toLowerCase() === 'air') {
+			return message.channel.send('```verarbeite: !Serienbewertung "The Expanse" \n'+
+						    'Serie beinhaltet: Steven Strait, Dominique Tipper, Cas Anvar, Wes Chatham und Shohreh Aghdashloo (Gesundheit!) \n'+
+						    'Serienadaption zur gleichnamigen Buchreihe von Daniel Abraham \n'+
+						    'Die Menschheit hat Teile des Universums besidelt \n'+
+						    'Amerika ist zur Weltregierung aufgestiegen \n'+
+						    'Wir werden alle sterben \n'+
+						    '... \n'+
+						    'Kleiner Witz :D\n'+
+						    'Politische Spannungen, viele Arbeitslose, ein unabhängiger Mars und der andauernde Konflikt zwischen dem Mars, den Vereinten Nationen und der Outer Planet Alliance werden in der Serie näher beleuchtet  \n'+
+						    'Außerdem zu sehen: Sex in Schwerelosigkeit \n'+
+						    'Desweiteren: FEDORA aufm Kopf!!! \n'+
+						    'Allein deswegen sollte man sich die Serie anschauen!\n'+
+						    'Daher Empfehlung: \n'+
+						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
+			
 		}
 		 return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
