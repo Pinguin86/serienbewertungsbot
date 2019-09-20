@@ -104,7 +104,7 @@ module.exports = {
 						    'Kleiner Witz :D\n'+
 						    'Politische Spannungen, viele Arbeitslose, ein unabhängiger Mars und der andauernde Konflikt zwischen dem Mars, den Vereinten Nationen und der Outer Planet Alliance werden in der Serie näher beleuchtet  \n'+
 						    'Außerdem zu sehen: Sex in Schwerelosigkeit \n'+
-						    'Desweiteren: FEDORA aufm Kopf!!! \n'+
+						    'Desweiteren: ~~FEDORA~~ Trillbys aufm Kopf!!! \n'+
 						    'Allein deswegen sollte man sich die Serie anschauen!\n'+
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt anschauen und danach die Bücher lesen!!!```');
