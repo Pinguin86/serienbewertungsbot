@@ -12,7 +12,7 @@ module.exports = {
 				//console.log(bot.users);
 				return bot.users.get("144189617061494784").send(`Die von ${message.author} gewünschte Serie lautet: ${args}`);
 			})
-			return message.channel.send('Vielen Dank, ihr request wurde in Empfang genommen.');
+			return message.channel.send('Vielen Dank, Dein request (skunkk ist scheiße) wurde in Empfang genommen.');
 		});
 	},
 };
