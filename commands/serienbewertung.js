@@ -175,7 +175,7 @@ module.exports = {
 						    'Sieben Yay, zwei Nay! \n'+
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt sehen!```');
-			} else if (args[0].toLowerCase() === 'deine' && args[1].toLowerCase() === 'mudda' && args[2].toLowerCase() === 'war' && args[3].toLowerCase() === 'auch' && args[4].toLowerCase() === 'mal' && args[5].toLowerCase() === 'ne' && args[6].toLowerCase() === 'schiene'
+			} else if (args[0].toLowerCase() === 'deine' && args[1].toLowerCase() === 'mudda' && args[2].toLowerCase() === 'war' && args[3].toLowerCase() === 'auch' && args[4].toLowerCase() === 'mal' && args[5].toLowerCase() === 'ne' && args[6].toLowerCase() === 'schiene')
 			   {
 			return message.channel.send('```verarbeite: !Serienbewertung "Deine mudda war auch mal ne Schiene" \n'+
 						    'Serie beinhaltet: Flitzes/Domians Mutter. \n'+
