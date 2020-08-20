@@ -216,11 +216,7 @@ module.exports = {
 						    'Die Serien liefen zwischen 1983 und 2016 im Fernsehen, die Filme waren 1985, 1986, 1987, 2004 und 2005 zu sehen. \n'+
 						    'Alles in allem eine sehr schöne Serie für Kinder und für Erwachsene die ein bisschen in Nostalgie schwelgen möchten. \n'+ 
 						    'Unbedingt sehen!```',
-						   split: {
-    							prepend: '...',
-						   	append: '...'
-  							}
-						   )
+						   { split: true } )
 				
 		} return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
