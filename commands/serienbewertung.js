@@ -175,6 +175,19 @@ module.exports = {
 						    'Sieben Yay, zwei Nay! \n'+
 						    'Daher Empfehlung: \n'+
 						    'Unbedingt sehen!```');
+			} else if (args[0].toLowerCase() === 'deine' && args[1].toLowerCase() === 'mudda' && args[2].toLowerCase() === 'war' && args[2].toLowerCase() === 'auch' && args[2].toLowerCase() === 'mal' && args[2].toLowerCase() === 'ne' && args[2].toLowerCase() === 'schiene'
+			   {
+			return message.channel.send('```verarbeite: !Serienbewertung "Deine mudda war auch mal ne Schiene" \n'+
+						    'Serie beinhaltet: Flitzes/Domians Mutter. \n'+
+						    'Basiert auf Flitzes von ihm seiner Mutter. \n'+
+						    'Ich könnte mir hier jetzt noch was lustiges über Flitzes Mutter ausdenken. \n'+
+							'Aber....ganz ehrlich... \n'+
+							'... \n'+
+							'... \n'+
+							'... \n'+
+							'Weißte Flitze?  \n'+
+							'Fick dich! \n'+
+						    'Unbedingt sehen!```');
 		} return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
 	},
