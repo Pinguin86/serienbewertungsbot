@@ -215,7 +215,7 @@ module.exports = {
 						    //'Insgesamt gibt es 5 Serien von den Glücksbärchis und Freunden und 5 Filme. \n'+
 						    //'Die Serien liefen zwischen 1983 und 2016 im Fernsehen, die Filme waren 1985, 1986, 1987, 2004 und 2005 zu sehen. \n'+
 						    //'Alles in allem eine sehr schöne Serie für Kinder und für Erwachsene die ein bisschen in Nostalgie schwelgen möchten. \n'+ 
-						    'Unbedingt sehen!```');
+						    'Unbedingt sehen!```') &&
 			 return message.channel.send('```verarbeite: !Serienbewertung "Die Glücksbärchis/Care bears" \n'+
 				                    'Dort wachen sie über die Menschenskinder und versammeln sich, wenn Schwierigkeiten auftreten, im Herzsaal (Hall of Hearts) um mit ihrem Glücksbarometer die Gefühle der Menschen zu lesen. \n'+
 						    'Wenn die Gefühle zu negativ sind, werden die Glücksbärchis zu Superhelden die dicke fette Glücksstrahlen aus ihrem Bauch schießen und so alle negativen Gefühle aus dem Leben verbannen. \n'+
