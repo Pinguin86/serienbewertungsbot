@@ -82,7 +82,7 @@ module.exports = {
 		} else if (args[0].toLowerCase() === 'russian' && args[1].toLowerCase() === 'doll') {
 			return message.channel.send('```verarbeite: !Serienbewertung "Russian Doll" \n'+
 						    'Serie beinhaltet: Natasha Lyonne, Greta Lee, Charlie Barnett, Jeremy Bobb und Rebecca Henderson \n'+
-						    'Täglich grüßt das Murmeltier meets die alte aus Orange is the new Black und American Pie \n'+
+						    'Täglich grüßt das Murmeltier meets die Alte aus Orange is the new Black und American Pie \n'+
 						    'Spieleentwicklerin Nadia Vulvokov stirbt und erlebt die 24 Stunden seit dem Abend ihres 36. Geburtstages immer und immer wieder \n'+
 						    'Jedesmal wacht sie in diesem verdammten Badezimmer auf \n'+
 						    'Im Laufe der Serie vergisst sie wie man eine Treppe runterläuft, lässt sich von einem Obdachlosen die Haare schneiden und versucht die Ursache für diesen Murmeltiertag zu finden \n'+
