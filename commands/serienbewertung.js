@@ -196,7 +196,7 @@ module.exports = {
   			   || args[0].toLowerCase() === 'die' && args[1].toLowerCase() === 'gluecksbaerchis')		{
 			return message.channel.send('```verarbeite: !Serienbewertung "Die Glücksbärchis/Care bears" \n'+
 						    'Serie beinhaltet Stimmen von: Dirk Stollberg [P in Johnny English - Man lebt nur dreimal], Gerald Paradies [Victor Von Ion in Ratchet und Clank], \n'+
-                                                    'Julia Stoepel [Babs Jensen in Sharknado 3], \n'+
+                                                    'Josephine Schmidt [Batgirl bzw. Barbara Gorden in Batman vs. Teenage Mutant Ninja Turtles], \n'+
 						  //  'Dennis Schulz, Jamie Lee Blank [Gerda in Die Schneekönigin 3] und Pete Stefanov [Lucas in Barbie präsentiert Elfinchen] \n'+
 						   // 'Die englische Variante beinhaltet Stimmen von: Ian James Corlett [Paulie in Tom und Jerry - Eine Weihnachtsgeschichte], \n'+
 						 //   'Mark Oliver [König Nereus in Barbie in: Die magischen Perlen], Andrea Libman [Fluttershy in My Little Pony: Der Film], \n'+
