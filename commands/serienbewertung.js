@@ -200,7 +200,7 @@ module.exports = {
 						   // 'Dennis Schulz, Jamie Lee Blank [Gerda in Die Schneekönigin 3] und Pete Stefanov [Lucas in Barbie präsentiert Elfinchen] \n'+
 						   // 'Die englische Variante beinhaltet Stimmen von: Ian James Corlett [Paulie in Tom und Jerry - Eine Weihnachtsgeschichte], \n'+
 						   // 'Mark Oliver [König Nereus in Barbie in: Die magischen Perlen], Andrea Libman [Fluttershy in My Little Pony: Der Film], \n'+
-						    'Tabitha St. Germain [Rarity in My Little Pony: Der Film], Matt Hill [Ironhide in Transformers: Optimus Prime vs Megatron - The Ultimate Battle], \n'+
+						  // 'Tabitha St. Germain [Rarity in My Little Pony: Der Film], Matt Hill [Ironhide in Transformers: Optimus Prime vs Megatron - The Ultimate Battle], \n'+
 						    'Tracey Moore [Flitter Flutter in My Little Pony: Der Stern der Wünsche] und Ashleigh Ball [Rainbow Dash in My Little Pony: Der Film] \n'+
 						    'Wurden am Anfang in Deutschland als "Hab-Dich-lieb Bärchis vermarket" \n'+
 						    'Entstanden ursprünglich als Grußkartenfiguren gezeichnet von Elena Kucharik und fanden so viel Anklang, dass 1983 der Markt mit Merchandiseprodukten geflutet wurde. \n'+
