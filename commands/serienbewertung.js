@@ -198,7 +198,7 @@ module.exports = {
 						    'Serie beinhaltet Stimmen von: Dirk Stollberg [P in Johnny English - Man lebt nur dreimal], Gerald Paradies [Victor Von Ion in Ratchet und Clank], \n'+
 						   // 'Julia Stoepel [Babs Jensen in Sharknado 3], Josephine Schmidt [Batgirl bzw. Barbara Gorden in Batman vs. Teenage Mutant Ninja Turtles], \n'+
 						   // 'Dennis Schulz, Jamie Lee Blank [Gerda in Die Schneekönigin 3] und Pete Stefanov [Lucas in Barbie präsentiert Elfinchen] \n'+
-						    'Die englische Variante beinhaltet Stimmen von: Ian James Corlett [Paulie in Tom und Jerry - Eine Weihnachtsgeschichte], \n'+
+						   // 'Die englische Variante beinhaltet Stimmen von: Ian James Corlett [Paulie in Tom und Jerry - Eine Weihnachtsgeschichte], \n'+
 						    'Mark Oliver [König Nereus in Barbie in: Die magischen Perlen], Andrea Libman [Fluttershy in My Little Pony: Der Film], \n'+
 						    'Tabitha St. Germain [Rarity in My Little Pony: Der Film], Matt Hill [Ironhide in Transformers: Optimus Prime vs Megatron - The Ultimate Battle], \n'+
 						    'Tracey Moore [Flitter Flutter in My Little Pony: Der Stern der Wünsche] und Ashleigh Ball [Rainbow Dash in My Little Pony: Der Film] \n'+
