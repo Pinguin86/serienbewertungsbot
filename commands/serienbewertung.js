@@ -211,16 +211,17 @@ module.exports = {
 						    'Zuerst gab es nur 10 Bärchis: Schmusebärchi (Tenderheart Bear), Freundschaftsbärchi (Friend Bear), Schlummerbärchi (Bedtime Bear), Geburtstagsbärchi (Birthday Bear), Hurrabärchi (Cheer Bear)  \n'+
 						    'Brummbärchi (Grumpy Bear), Sonnenscheinbärchi (Sunshine Bear), Glücksbärchi (Good Luck Bear), Lieb-mich-Bärchi (Love-a-Lot Bear) und Wunschbärchi (Wish Bear) \n'+
 						    'Im Laufe der Zeit sind jedoch immer mehr hinzugekommen so dass es insgesamt 44 Glücksbärchis and friends und 8-9 Bösewichte gab. \n'+
-						    //'Wer über die restlichen Bescheid wissen möchte, dem sei die deutsche Wikipediaseite ans Herz gelegt. \n'+
-						    //'Insgesamt gibt es 5 Serien von den Glücksbärchis und Freunden und 5 Filme. \n'+
-						    //'Die Serien liefen zwischen 1983 und 2016 im Fernsehen, die Filme waren 1985, 1986, 1987, 2004 und 2005 zu sehen. \n'+
-						    //'Alles in allem eine sehr schöne Serie für Kinder und für Erwachsene die ein bisschen in Nostalgie schwelgen möchten. \n'+ 
-						    'Unbedingt sehen!```')
-				 , {
- 					 split: {
-   						 prepend: '...',
- 						   append: '...'
-				  } ;
+						    'Wer über die restlichen Bescheid wissen möchte, dem sei die deutsche Wikipediaseite ans Herz gelegt. \n'+
+						    'Insgesamt gibt es 5 Serien von den Glücksbärchis und Freunden und 5 Filme. \n'+
+						    'Die Serien liefen zwischen 1983 und 2016 im Fernsehen, die Filme waren 1985, 1986, 1987, 2004 und 2005 zu sehen. \n'+
+						    'Alles in allem eine sehr schöne Serie für Kinder und für Erwachsene die ein bisschen in Nostalgie schwelgen möchten. \n'+ 
+						    'Unbedingt sehen!```',
+						   split: {
+    							prepend: '...',
+						   	append: '...'
+  							}
+						   )
+				
 		} return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
 	},
