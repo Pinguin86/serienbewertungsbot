@@ -188,6 +188,34 @@ module.exports = {
 							'Weißte Flitze?  \n'+
 							'Fick dich! \n'+
 						    'Unbedingt sehen!```');
+			 }  else if (args[0].toLowerCase() === 'die' && args[1].toLowerCase() === 'glücksbärchis' 
+			   || args[0].toLowerCase() === 'die' && args[1].toLowerCase() === 'glücks' && args[2].toLowerCase() === 'bärchis'
+   			   || args[0].toLowerCase() === 'die' && args[1].toLowerCase() === 'gluecks' && args[2].toLowerCase() === 'baerchis'
+   			   || args[0].toLowerCase() === 'care' && args[1].toLowerCase() === 'bears' 
+   			   || args[0].toLowerCase() === 'carebears'
+  			   || args[0].toLowerCase() === 'die' && args[1].toLowerCase() === 'gluecksbaerchis')		{
+			return message.channel.send('```verarbeite: !Serienbewertung "Die Glücksbärchis/Care bears" \n'+
+						    'Serie beinhaltet Stimmen von: Dirk Stollberg [P in Johnny English - Man lebt nur dreimal], Gerald Paradies [Victor Von Ion in Ratchet und Clank], \n'+
+							'Julia Stoepel [Babs Jensen in Sharknado 3], Josephine Schmidt [Batgirl/Barbara Gorden in Batman vs. Teenage Mutant Ninja Turtles], \n'+
+							'Dennis Schulz, Jamie Lee Blank [Gerda in Die Schneekönigin 3] und Pete Stefanov [Lucas in Barbie präsentiert Elfinchen] \n'+
+							'Die englische Variante beinhaltet Stimmen von: Ian James Corlett [Paulie in Tom und Jerry - Eine Weihnachtsgeschichte], \n'+
+							'Mark Oliver [König Nereus in Barbie in: Die magischen Perlen], Andrea Libman [Fluttershy in My Little Pony: Der Film], \n'+
+							'Tabitha St. Germain [Rarity in My Little Pony: Der Film], Matt Hill [Ironhide in Transformers: Optimus Prime vs Megatron - The Ultimate Battle], \n'+
+							'Tracey Moore [Flitter Flutter in My Little Pony: Der Stern der Wünsche] und Ashleigh Ball [Rainbow Dash in My Little Pony: Der Film]\n'+
+						    'Wurden am Anfang in Deutschland als "Hab-Dich-lieb Bärchis vermarket" \n'+
+						    'Entstanden ursprünglich als Grußkartenfiguren gezeichnet von Elena Kucharik und fanden so viel Anklang, dass 1983 der Markt mit Merchandiseprodukten geflutet wurde. \n'+
+							'Sogar PC- und Konsolenspiele mit den Plüschbären wurden produziert. \n'+
+							'Die Glücksbärchis (Care bears) leben gemeinsam mit dem Wolkenwächter (Cloud Keeper) und kleinen fliegenden Sternen und Herzen im Wolkenland (Kingdom of Caring). \n'+
+							'Dort wachen sie über die Menschenskinder und versammeln sich, wenn Schwierigkeiten auftreten, im Herzsaal (Hall of Hearts) um mit ihrem Glücksbarometer die Gefühle der Menschen zu lesen. \n'+
+							'Wenn die Gefühle zu negativ sind, werden die Glücksbärchis zu Superhelden die dicke fette Glücksstrahlen aus ihrem Bauch schießen und so alle negativen Gefühle aus dem Leben verbannen. \n'+
+							'Zuerst gab es nur 10 Bärchis: Schmusebärchi (Tenderheart Bear), Freundschaftsbärchi (Friend Bear), Schlummerbärchi (Bedtime Bear), Geburtstagsbärchi (Birthday Bear), Hurrabärchi (Cheer Bear)  \n'+
+							'Brummbärchi (Grumpy Bear), Sonnenscheinbärchi (Sunshine Bear), Glücksbärchi (Good Luck Bear), Lieb-mich-Bärchi (Love-a-Lot Bear) und Wunschbärchi (Wish Bear) \n'+
+							'Im Laufe der Zeit sind jedoch immer mehr hinzugekommen so dass es insgesamt 44 Glücksbärchis and friends und 8-9 Bösewichte gab. \n'+
+							'Wer über die restlichen Bescheid wissen möchte, dem sei die deutsche Wikipediaseite ans Herz gelegt. \n'+
+							'Insgesamt gibt es 5 Serien von den Glücksbärchis und Freunden und 5 Filme. \n'+
+							'Die Serien liefen zwischen 1983 und 2016 im Fernsehen, die Filme waren 1985, 1986, 1987, 2004 und 2005 zu sehen. \n'+
+							'Alles in allem eine sehr schöne Serie für Kinder und für Erwachsene die ein bisschen in Nostalgie schwelgen möchten. \n'+
+						    'Unbedingt sehen!```');
 		} return message.channel.send('Die Serie/der Film wurde noch nicht bewertet! Bitte schicke einen request per !request <Filmname oder Serienname> ab.');
 		
 	},
